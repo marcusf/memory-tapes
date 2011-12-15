@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link rel="stylesheet" href="sp://import/css/api.css">
+  <link rel="stylesheet" href="sp://import/css/shared.css">
+  <link rel="stylesheet" href="sp://import/css/eve.css">
+  <link rel='stylesheet' href='assets/tapes.css'>
+	<title>Memory Tapes!</title>  
+</head>
+
+<body>
+
+  <!-- #VIEW: view-playlist -->
+  <div id="mtapes-ui">
+    <div id="topbar">
+      <div id="toplogo"></div>
+      <div id="playlist-loading"></div>
+      <select id="date-selector"></select>
+    </div>
+    
+    <div class="error"></div>
+    
+    <div id="no-tracks-found">
+      <h1>Sowwy :'(</h1>
+      <p>You didn't listen to anything we can find in that month.</p>
+    </div>
+    
+    <div id="playlist-container">
+    
+      <div id="playlist-sidebar">
+        <button class="add-playlist button icon" id="add-playlist"><span class="plus"></span>Add as Playlist</button><br />
+      </div>
+      <div id="playlist-text-wrapper">
+        <h2 id="playlist-title"></h2>
+        <div id="playlist"></div>
+      </div>
+    </div>
+      
+    <div id="footer">
+      <div id="userinfo">
+        Currently looking at <span id="userinfo-name"></span>  
+      </div>
+      <button class="button" id="logout">Switch user!</button>
+    </div>
+  </div>
+  
+  <!-- #VIEW: view-login -->
+  <div id="login-ui">
+    <div id="panel-login">
+      <div id="login-loading"></div>
+      <div id="input-username">
+        <form id="login">
+          <label>last.fm name</label>
+          <input type="text" value="" id="username">
+          <input type="submit" id="login-button" class="button" value="Go!">
+        </form>
+        <p><b>MemoryTapes is your musical past, as a mixtape.</b> If you're like me, you've scrobbled your music for as long as you can remember,
+          but lost the tracks along the way. Fill in your last.fm name, and we'll bring it all back to you again.
+        </p>
+      </div>
+      <div class="error"></div>
+    </div>
+  </div>
+
+<script type="text/javascript" charset="utf-8" src="vendor/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="vendor/underscore.js"></script>
+<script type="text/javascript" charset="utf-8" src="lib/app.js"></script>
+</body>
+</html>
