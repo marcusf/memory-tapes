@@ -12,7 +12,10 @@ javascript again.
 
 Installing
 -------------------------------------------------------------------------------
-Installing is a three step process:
+To install, you need both a [Spotify developer account][spdev] and a 
+[Last.fm devleoper account][lfmdev]. 
+
+Once you have that, installing is a three step process:
 
  1. Unpack into ~/Spotify
  2. Configure your last.fm API key (See below)
@@ -24,3 +27,6 @@ Since I don't want to spread my own last.fm API key, you'll need to get your
 own. So, register an API key with last.fm, and place it in a file called
 LASTFM\_API\_KEY in the project root. The file should contain only the API
 key, and nothing else. No carriage returns.
+
+[spdev]: http://developer.spotify.com/en/spotify-apps-api/developer-signup/
+[lfmdev]: http://www.last.fm/api/account
