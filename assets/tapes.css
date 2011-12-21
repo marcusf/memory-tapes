@@ -12,7 +12,7 @@
   opacity: 1;
 }
 
-#toplogo {
+/*#toplogo {
   width: 488px;
   height: 58px;
   float: left;
@@ -52,7 +52,7 @@
   font-size: 16px;
   margin-top: 20px;
   float: right;
-}
+} */
 
 .sp-image {
   box-shadow:inset 0px 0px 3px #000;
@@ -61,7 +61,6 @@
 
 #playlist-container {
   padding: 24px;
-  box-shadow:inset 0 10px 10px #ccc;
 }
 
 #playlist-text-wrapper {
@@ -123,7 +122,7 @@
 }
 
 /* Errors */
-#mtapes-ui .error {
+/*#mtapes-ui .error {
   padding-left: 9px;
   margin-top: -27px;
   height: 17px;
@@ -140,7 +139,7 @@
 
 #mtapes-ui .error.active {
   margin-top: 0px;
-}
+}*/
 
 #footer {
   height: 38px;

@@ -1,0 +1,57 @@
+#year-selector {
+  float: left;
+  width: 100%;
+  padding: 64px 0;
+  border-top: 4px solid white;
+}
+#year-selector h1 {
+  font-family: 'Museo Slab';
+  font-weight: 500;
+  font-size: 79px;
+  color: #a1ecff;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+#years {
+  float: right;
+  margin-right: 20px;
+  font-family: 'Museo Slab';
+  font-weight: normal;
+  font-size: 22px; 
+}
+
+#years a {
+  color: #b3b3b3;
+}
+
+#years a.selected {
+  color: white;
+}
+
+#timeline {
+  margin: 6px;
+  float: left;
+}
+
+#timeline .month {
+  display: none;
+}
+
+#timeline > div {
+  width: 244px;
+  height: 244px;
+  margin: 6px;
+  float: left;
+  position: relative;
+  background-color: #262626;
+}
+
+#timeline > div .label {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  color: white;
+  text-shadow: none;
+  font: 500 20px 'Museo Slab';
+}

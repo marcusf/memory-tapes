@@ -5,8 +5,9 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <link rel="stylesheet" href="sp://import/css/api.css">
   <link rel="stylesheet" href="sp://import/css/shared.css">
-  <link rel="stylesheet" href="sp://import/css/eve.css">
+  <link rel="stylesheet" href="sp://import/css/adam.css">
   <link rel='stylesheet' href='assets/tapes.css'>
+  <link rel='stylesheet' href='assets/new-ui.css'>
 	<title>Memory Tapes!</title>  
 </head>
 
@@ -14,13 +15,36 @@
 
   <!-- #VIEW: view-playlist -->
   <div id="mtapes-ui">
-    <div id="topbar">
-      <div id="toplogo"></div>
-      <div id="playlist-loading"></div>
-      <select id="date-selector"></select>
+    <div id="year-selector">
+      <h1>2007</h1>
+      <div id="years">
+        <a href="#2005">05</a>
+        <a href="#2006">06</a>
+        <a href="#2007" class="selected">07</a>
+        <a href="#2008">08</a>
+        <a href="#2009">09</a>
+        <a href="#2010">10</a>
+        <a href="#2011">11</a>
+        <a href="#2012">12</a>
+      </div>
     </div>
-    
+
     <div class="error"></div>
+    
+    <div id="timeline">
+      <div id="month-0" class="month"><div class="label">January</div></div>
+      <div id="month-1" class="month"><div class="label">February</div></div>
+      <div id="month-2" class="month"><div class="label">March</div></div>
+      <div id="month-3" class="month"><div class="label">April</div></div>
+      <div id="month-4" class="month"><div class="label">May</div></div>
+      <div id="month-5" class="month"><div class="label">June</div></div>
+      <div id="month-6" class="month"><div class="label">July</div></div>
+      <div id="month-7" class="month"><div class="label">August</div></div>
+      <div id="month-8" class="month"><div class="label">September</div></div>
+      <div id="month-9" class="month"><div class="label">October</div></div>
+      <div id="month-10" class="month"><div class="label">November</div></div>
+      <div id="month-11" class="month"><div class="label">December</div></div>
+    </div>
     
     <div id="no-tracks-found">
       <h1>Sowwy :'(</h1>
