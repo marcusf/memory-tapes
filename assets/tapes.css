@@ -145,13 +145,12 @@
   height: 38px;
   color: #fff;
   bottom: 0;
-  position: absolute;
   text-shadow: none;
   background-color: #ccc;
   border-top: 1px solid #777;
   width: 100%;
   padding-top: 12px;
-  postion: fixed;
+  position: fixed;
   box-shadow:inset 0 0 10px #aaa;
   
 }
