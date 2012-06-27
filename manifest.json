@@ -1,5 +1,16 @@
 {
     "BundleType": "Application",
+    "BundleVersion": "0.1.0",
+    "UserInstallable": true,
+    "SupportedLanguages": [
+        "en"
+    ],
+    "AppName": {
+        "en": "Memory Tapes"
+    },
+    "AppDescription": {
+        "en": "Put a description of your app here"
+    },
     "AppIcon": {
         "36x18": "assets/icon-16.png",
         "32x32": "assets/icon-32.png",
@@ -7,12 +18,11 @@
         "128x128": "assets/icon-128.png",
         "256x256": "assets/icon-256.png"
     },
-    "AppName": {
-        "en": "Memory Tapes"
+    "BundleIdentifier" : "memory-tapes",
+    "VendorIdentifier" : "spotify",
+    "Dependencies": {
+        "api": "0.1.0"
     },
-    "SupportedLanguages": [
-        "en"
-    ],
     "RequiredPermissions": [
         "http://ws.audioscrobbler.com"
     ]
